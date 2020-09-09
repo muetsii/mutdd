@@ -7,6 +7,15 @@ This project would offer an unified API to access enviromental data captured by 
 
 Mu mu@member.fsf.org
 
+## Diseño de la solución
+
+Opto por la implentación en NodeJS.
+
+Node es una tecnología muy orientada a servir y consumir APIs REST (y otras). Su particular asincronismo monohebra ofrece muy buen rendimiento en peticiones cortas con muchas operaciones de entrada salida, como es servir una petición, consumir una petición o la lectura de la base de datos.
+
+Habrá dos partes separadas, una para servir los datos y otra para consumirlos de las distintas fuentes. Para la segunda habrá estructuras que abstraigan del lugar y la forma de los datos fuente y permitan procesar todas las fuentes de una manera unificada. Para esto el dinamismo de Javascript también será de ayuda.
+
+
 ## Selección de servicios
 
 ### Logging
