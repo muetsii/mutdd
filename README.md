@@ -18,6 +18,8 @@ Habrá dos partes separadas, una para servir los datos y otra para consumirlos d
 
 ## Selección de servicios
 
+u:issue:3
+
 ### Logging
 
 De entre los servicios mencionados me interesa logstash, por ser libre.
