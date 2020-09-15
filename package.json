@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --color test/**/*.test.js"
+    "test": "mocha --color test/**/*.test.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
