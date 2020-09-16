@@ -45,3 +45,7 @@ Por lo que me quedo con Postgres.
 No parece que vaya a necesitar un gestor de colas como RabbitMQ.
 
 La elección de un servidor web dependerá de la tecnología finalmente seleccionada para la implementación, aunque tampoco será determinante por el momento.
+
+## Ficheros implicados
+
+* Ver qa.json
