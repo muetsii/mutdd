@@ -2,14 +2,14 @@
   "name": "mutdd",
   "version": "0.0.0",
   "description": "Open enviromental data API",
-  "main": "app.js",
+  "main": "src/app.js",
   "directories": {
     "doc": "doc",
     "test": "test"
   },
   "scripts": {
     "test": "mocha --color test/**/*.test.js",
-    "start": "node app.js"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
