@@ -1,0 +1,10 @@
+{
+    "lenguaje" : "JavaScript",
+    "build" : "npm",
+    "ficheros" : [
+	"src/app.js",
+	"src/api/index.js",
+	"src/api/dummy/index.js",
+	"src/api/route.js"
+    ]
+}
